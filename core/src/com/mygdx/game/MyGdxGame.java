@@ -128,7 +128,7 @@ public class MyGdxGame extends ApplicationAdapter implements GestureDetector.Ges
 	@Override
 	public boolean tap(float x, float y, int count, int button) {
 		if(count >1){
-			sprite.setPosition(-sprite.getWidth()/2,-sprite.getHeight()/2);
+			sprite.setPosition(-600,0);
 			sprite.setSize(256f,256f);
 			sprite.setRotation(0f);
 
